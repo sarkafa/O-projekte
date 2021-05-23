@@ -1,0 +1,63 @@
+body {
+  background: #7f7674;
+  background-size: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  color: #ffffff;
+  background-color: #9ecaab;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #1fcca4;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  background-color: #1cbb96;
+}
+.autoress {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.autoress p {
+  flex-basis: 100%;
+}
+figure {
+  flex-basis: 45%;
+  margin: 0;
+  margin-bottom: 5%;
+}
+.autoress__lucia img {
+  width: 80%;
+  border-radius: 50%;
+}
+.autoress__sarka img {
+  background-color: #7f7674;
+  width: 20%;
+  border-radius: 50%;
+}
+.lucia__fotka {
+  max-width: 500px;
+}
+.description__lucia {
+  padding-bottom: 5%;
+}
